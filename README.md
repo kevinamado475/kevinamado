@@ -25,3 +25,34 @@ recibe dos numero en decimales y devuelve el resultado en formato entero
 ¿como lo hace?
 suma los dos numeros decimales y aplica la funcion "int()" para eliminar la parte decimal (casting)
 
+## training 3: condicionales
+### ejercicio 1 (mayor de edad)
+¿que hace ? 
+pide al usuario que introduzca la edad e indica si es mayor o menor de edad 
+¿como lo hace? utilizando una estructura "if >=18" para comprobar si es mayor o igual de 18 años.
+### ejercicio 2 (numero mas grande de los 3)
+¿que hace?
+compara los tres numero introducidos por el usuario y determina cual de ellos es el mayor 
+¿como lo hace?
+se evalua mediante la funciona de "max()"
+### ejercicio 3 (postivo o negativo)
+¿que hace?
+lee un numero y comprueba si es positivo o negativo (considerando el 0 como positivo)
+¿como lo hace?
+comprueba con "if num >= 0" para clasificar si el numero es positivo o pasar al bloque "else" como negativo
+## training 4 : bucles
+### ejercicio 1 (numero pares)
+¿que hace? 
+muestra en pantalla todos los numeros pares comprendidos entre 1 al 200
+¿como lo hace?
+utiliza un bucle "for num in range(1,201)" tambien " if num % 2 ==0" y print para que muestre el bucle
+### ejercicio 2 (busqueda al numero 10)
+¿que hace?
+colocamos varios numero y si hay un numero 10 enviara un mensaje que si hay un numero 10 y para finalizar es -1
+¿como lo hace?
+utiliza un bucle "while nota != -1 " y una variable que cambia a "true" si se detecta un 10
+### ejercicio 3 (detectar numero negativos)
+¿que hace?
+en un rango de 10 numeros de ingreso va verificar si hay un numero negativo
+¿como lo hace?
+ejecuta un bucle "for" de 10 repeticiones y evalua con "if nume < 0 " para avisar si hay un numero negatvio
